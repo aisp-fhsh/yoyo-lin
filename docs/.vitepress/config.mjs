@@ -1,32 +1,36 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
-export default defineConfig({
+export default defineConfig({ 
   title: "新手友善的 Vitepress 模板 🐥",
-  description: "👶👶 提供新手快速建立的 Vitepress 模板 👶👶",
-  base: "/vitepress-templating/", // 👈👈👈 這個非常需要設定喔！！
+  description: "ya",
+  base: "/yoyo-lin/", // 👈👈👈 這個非常需要設定喔！！
   themeConfig: {
     
     // 👇👇👇 查看 https://vitepress.dev/reference/default-theme-nav
-    nav: [ 
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    nav: [
+      { text: "首頁", link: "/" },
+      { text: "指南", link: "/guide/" },
+      { text: "範例", link: "/examples/" },
+      { text: "API", link: "/api/" },
+      ],
 
     // 👇👇👇 查看 https://vitepress.dev/reference/default-theme-sidebar
-    sidebar: [
+    sidebar:[
       {
-        text: 'Examples',
+        text: "範例",
         items: [
-          { text: 'Markdown 使用範例', link: '/markdown-examples' },
-          { text: 'Runtime API 使用範例', link: '/api-examples' },
-        ]
-      }
-    ],
+            { text: "範例一", link: "/examples/example-one" },
+            { text: "範例二", link: "/examples/example-two" },
+          ]
+        }
+      ],
 
     // 👇👇👇 查看 https://vitepress.dev/reference/default-theme-config#sociallinks
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/aisp-fhsh/vitepress-templating' },
-      { icon: { svg: "<img src='New%20AISP%20Logo%20Icon.svg' alt='AISP Logo' width='80%' height='80%' />" }, link: 'https://security-program.fhsh.taipei'}
+      {
+        icon: "github",
+        link: "https://aisp-fhsh.github.io/yoyo-lin/",
+      }
     ]
   }
 })

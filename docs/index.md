@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Newbie-Friendly 的 Vitepress 模板"
-  text: "學生說沒有，但我覺得很友善了 😏"
-  tagline: 我真心覺得很友善了... _(´ཀ`」 ∠)_
+  name: "Y0yo's-B1og"
+  text: "哈囉大家好我是yoyolin，歡迎大家逛我的Blog~"
+  tagline: 不定時更新
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Markdown
+      link: /markdown
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API
+      link: /api
 
 features:
   - icon: 🌐
