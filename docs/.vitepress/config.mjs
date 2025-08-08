@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({ 
-  title: "新手友善的 Vitepress 模板 🐥",
+  title: "首頁",
   description: "ya",
   base: "/yoyo-lin/", // 👈👈👈 這個非常需要設定喔！！
   themeConfig: {
@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: "首頁", link: "/" },
       { text: "指南", link: "/guide/" },
-      { text: "範例", link: "/examples/" },
+      { text: "writeup", link: "/writeup/" },
       { text: "API", link: "/api/" },
       ],
 
