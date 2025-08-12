@@ -9,7 +9,4 @@ hero:
     - theme: write up
       text: cdxctf
       link: /cdxctf      
-    - theme: write up
-      text: crostini
-      link: /crostini
 ---
