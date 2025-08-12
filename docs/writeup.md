@@ -8,8 +8,7 @@ hero:
   actions:
     - theme: write up
       text: cdxctf
-      link: /cdxctf
-  actions:
+      link: /cdxctf      
     - theme: write up
       text: crostini
       link: /crostini
