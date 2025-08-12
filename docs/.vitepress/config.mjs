@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({ 
-  title: "首頁",
-  description: "ya",
+  title: "yoyolin's blog",
+  description: "歡迎觀賞我的部落格",
   base: "/yoyo-lin/", // 👈👈👈 這個非常需要設定喔！！
   themeConfig: {
     
