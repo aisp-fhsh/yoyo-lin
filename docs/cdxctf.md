@@ -43,7 +43,7 @@ port號:5000
 ![第十四題 假密碼](/images/q14-fake.png)
 
 他總共有1-8的post是有東西的，當輸入post/0的時候，出現的是404，但post/-1則是not found，所以可以嘗試先從9-1000內的全部post來做窮舉法。
-
+ 
 ![第十四題 窮舉法](/images/q14-bruteforce.png)
 
 Flag : ctfcdx{h1dd3n_p0st_d3t3ct3d}
